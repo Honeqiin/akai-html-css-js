@@ -1,0 +1,86 @@
+/*
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    AKAI Frontend Task - CSS
+    Spróbuj zmodyfikować poniższy plik ze stylami tak, by upiększyć formularz na stronie.
+    Jako inspiracji możesz skorzystać z szablonu znajdującego się w pliku img/layout.png
+    Nie wymagamy, by wykonać identyczny layout. Liczy się kreatywność.
+    Przy wykonywaniu zadania można zmienić strukturę pliku index.html.
+    Pamiętaj, że w takim wypadku będzie trzeba zadbać o dostosowanie odpowiednich selektorów.
+    Jeśli korzystasz z preprocessorów takich jak Sass/Less, również możesz się tym pochwalić.
+    Powodzenia!
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+
+body {
+	font-family: "Monospace", "Monaco";
+	background-image: url("background.jpg");;
+	color: #000F35;
+}
+
+
+#task-frontend {
+	border: 1px solid #42597B;
+	border-radius: 25px;
+	max-width: 650px;
+	text-align: center;
+	background-color: rgba(255,255,255, 0.5);
+	padding: 40px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+#task-frontend .basic-title {
+  font-size: 20px;
+  margin: 0px auto 10px auto;
+}
+
+
+#task-frontend form>label {
+  margin: 10px auto 0 auto;
+}
+
+#task-frontend input[type="text"], #task-frontend input[type="email"] {
+  display: block;
+  margin: 15px auto;
+  padding: 6px 10px;
+  border: 0px solid black;
+  border-radius: 25px;
+  width: 250px;
+  height: 30px;
+  background-color: #E5E7EA;
+  box-shadow: rgba(50, 50, 93, 0.09) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  
+}
+ul {
+  list-style-type: none;
+  column-count: 2;
+  margin-left: -50px;
+  margin-right: auto;
+ }
+
+#task-frontend span {
+  display: block;
+}
+
+#task-frontend input[type="checkbox"] {
+	text-transform: none;
+	outline: none;
+	box-shadow: rgba(50, 50, 93, 0.09) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	
+}
+
+#task-frontend input[type="submit"] {
+	color: white;
+	background-color: #42597B;
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	border: none;
+	border-radius: 20px;
+	text-align: center;
+}
